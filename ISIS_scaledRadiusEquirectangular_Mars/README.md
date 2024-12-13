@@ -2,6 +2,7 @@ ISIS_scaledRadiusEquirectangular_Mars
 ============
 
 _TITLE  ISIS_scaledRadiusEquirectangular_Mars.cpp
+  OR    ISIS_scaledRadiusEquirectangular_Mars.py
 
 _ARGS  
 
@@ -25,6 +26,11 @@ Example runs:
 
 > ./ISIS_scaledRadiusEquirectangular_Mars 45 0
 3386150.74700337  = Local Radius
+
+Or in Python:
+> python ./ISIS_scaledRadiusEquirectangular_Mars.py 45 0
+3386150.74700337  = Local Radius
+
 
 > ./ISIS_scaledRadiusEquirectangular_Mars 45 45
 3386150.74700337  = Local Radius
